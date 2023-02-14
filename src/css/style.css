@@ -1,0 +1,71 @@
+/* --advice-dice-color: hsl(150, 100%, 66%); */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container .card {
+    background-color: hsl(217, 19%, 24%);
+    height: 250px;
+    border-radius: 5%;
+    width: 350px
+}
+
+.container .card .text {
+    display: flex;
+    justify-content: center;
+}
+
+.container .card .paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+}
+
+.container .card .span {
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    padding: 10px;
+    margin: 25px 0px 10px 0px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.container .card .img  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .card .img-row img{
+    margin-top: 25px;
+    width: 300px;
+}
+
+.container .card .img-icone {
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+.container .card .img-icone img:first-child {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+.container .card .img-icone img:last-child {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
