@@ -15,4 +15,5 @@
 - HTML
 - CSS
 
-
+## Comentarios
+Projeto básico, afim de praticar os conhecimentos em HMTL e CSS.
