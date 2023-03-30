@@ -22,7 +22,8 @@ body {
     flex-direction: column;
     text-align: center;
     height: 270px;
-    width: 420px;
+    max-width: 420px;
+    margin-inline: 20px;
     padding: 35px 30px 0 30px;
     background-color: var(--dark-grayish-blue);
     border-radius: 5%;
