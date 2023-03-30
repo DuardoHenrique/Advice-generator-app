@@ -1,6 +1,6 @@
 # Advice Generator App
 
-## Visualização mobile
+## Visualização desktop
 [<img src="./src/design/desktop.png">](https://duardohenrique.github.io/advice-generator-app/)
 
 ## Visualização em dispositivos móveis
@@ -14,6 +14,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 <hr>
 
