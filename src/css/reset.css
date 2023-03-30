@@ -1,16 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: hsl(218, 23%, 16%);
-    color: hsl(193, 38%, 86%);
-    font-family: 'Itim', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
 }

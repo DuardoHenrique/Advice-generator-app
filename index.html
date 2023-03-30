@@ -4,35 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Mentor | Advice generator app</title>
+    <title>Advice generator app</title>
 
     <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
 
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
 </head>
 <body>
-    <main class="container">
+    <main class="main">
         <div class="card">
-            <div class="span">
-                <span>ADVICE #117</span>
+            <h2 class="title">ADVICE #117</h2>
+            <div class="conselhos">
+                 <p class="paragrafo">"It is easy sit up and take notice,what's difficult is getting up and taking action."</p>
+             </div>
+            <img class="separacao" src="./src/images/pattern-divider-desktop.svg" alt="separacao">
+            <div class="img-dado btn">
+                <img class="dado" src="./src/images/icon-dice.svg" alt="dado">
             </div>
-            <div class="text">
-                <div class="paragraph">
-                    <p>"It is easy sit up and take notice,what's difficult is getting up and taking action."</p>
-                </div>
-            </div>
-            <div class="img">
-                <picture class="img-row">
-                    <source srcset="./src/images/pattern-divider-desktop.svg" media="(min-width: 768px)">
-                    <img src="./src/images/pattern-divider-mobile.svg" alt="row">
-                </picture>
-                <div class="img-icone">
-                    <img src="./src/images/icon-dice.svg" alt="">
-                    <img src="./src/images/quadrado-verde.png" alt="">
-                </div>
-            </div>
-        </div>
+        </div>   
     </main>
+
+    <script src="./src/js/main.js"></script>
 </body>
 </html>

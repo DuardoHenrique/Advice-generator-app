@@ -1,6 +1,6 @@
 # Advice Generator App
 
-## Visualização em desktop
+## Visualização mobile
 [<img src="./src/design/desktop.png">](https://duardohenrique.github.io/advice-generator-app/)
 
 ## Visualização em dispositivos móveis
@@ -15,5 +15,7 @@
 - HTML
 - CSS
 
+<hr>
+
 ## Comentarios
-Projeto básico, afim de praticar os conhecimentos em HMTL e CSS.
+Projeto inspirado em um desafio do front-end mentor, onde foi usado para práticar os conhecimentos básicos em API.

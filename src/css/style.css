@@ -1,71 +1,68 @@
 /* --advice-dice-color: hsl(150, 100%, 66%); */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+    background-color: var(--dark-blue);
+    color: var(--light-cyan);
+    font-family: 'Itim', sans-serif;
     width: 100vw;
+    height: 100vh;
 }
 
-.container .card {
-    background-color: hsl(217, 19%, 24%);
-    height: 250px;
-    border-radius: 5%;
-    width: 350px
+.main {
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
 }
 
-.container .card .text {
+.main .card {
     display: flex;
-    justify-content: center;
-}
-
-.container .card .paragraph {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 80%;
-}
-
-.container .card .span {
-    text-align: center;
-    color: hsl(150, 100%, 66%);
-    padding: 10px;
-    margin: 25px 0px 10px 0px;
-    font-size: 10px;
-    letter-spacing: 1px;
-}
-
-.container .card .img  {
-    display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
+    height: 270px;
+    width: 420px;
+    padding: 35px 30px 0 30px;
+    background-color: var(--dark-grayish-blue);
+    border-radius: 5%;
+    position: relative;  
 }
 
-.container .card .img-row img{
-    margin-top: 25px;
-    width: 300px;
+.main .card .title {
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: var(--margin-bottom);
+    color: var(--neon-green);
 }
 
-.container .card .img-icone {
-    align-self: center;
-    height: 20px;
-    width: 20px;
-    position: relative;
-    top: 50px;
-    right: 10px;
+.main .card .conselhos {
+    font-size: 26px;
+    margin-bottom: 25px;
 }
 
-.container .card .img-icone img:first-child {
+.main .card .separacao {
+    width: 100%;
+}
+
+
+.main .card .img-dado {
+    display: grid;
+    place-content: center;
     position: absolute;
-    top: 13px;
-    left: 12px;
-    width: 15px;
-    height: 15px;
+    bottom: -23px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  var( --neon-green);
+    cursor: pointer;
 }
 
-.container .card .img-icone img:last-child {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+.main .card .img-dado:hover {
+    box-shadow: 0 0 35px var(--neon-green);
+}
+
+.main .card .dado {
+    width: 25px;
+    height: 25px;
 }
